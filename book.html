@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Development Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .cart {
+            border: 1px solid #ccc;
+            padding: 10px;
+            max-width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Frontend Development Online Book Store</h1>
+
+    <!-- Categories -->
+    <section>
+        <h2>UX</h2>
+        <article>
+            <img src="ux_book.jpg" alt="UX Book Cover">
+            <h3>Responsive Web Design</h3>
+            <p>A comprehensive guide to creating responsive web designs. Covers HTML, CSS, and JavaScript techniques for building modern and accessible websites.</p>
+            <p>Price: $20</p>
+            <button disabled>Buy</button>
+        </article>
+
+        <article>
+            <img src="ux_book2.jpg" alt="UX Book Cover 2">
+            <h3>User Experience Fundamentals</h3>
+            <p>Explore the core principles of user experience design. Learn how to create intuitive and user-friendly interfaces for web applications.</p>
+            <p>Price: $25</p>
+            <button disabled>Buy</button>
+        </article>
+    </section>
+
+    <section>
+        <h2>HTML</h2>
+        <article>
+            <img src="html_book.jpg" alt="HTML Book Cover">
+            <h3>HTML5 Mastery</h3>
+            <p>Master the latest features of HTML5. This book provides in-depth coverage of semantic markup, multimedia, and advanced form elements.</p>
+            <p>Price: $25</p>
+            <button disabled>Buy</button>
+        </article>
+
+        <article>
+            <img src="html_book2.jpg" alt="HTML Book Cover 2">
+            <h3>Web Accessibility Essentials</h3>
+            <p>Learn how to make your web content accessible to everyone. Understand the importance of HTML semantics and ARIA roles in building inclusive websites.</p>
+            <p>Price: $30</p>
+            <button disabled>Buy</button>
+        </article>
+    </section>
+
+    <section>
+        <h2>CSS</h2>
+        <article>
+            <img src="css_book.jpg" alt="CSS Book Cover">
+            <h3>CSS3 Styling Techniques</h3>
+            <p>Discover advanced CSS styling techniques for creating visually appealing and responsive web pages. Includes animations, transitions, and flexbox.</p>
+            <p>Price: $30</p>
+            <button disabled>Buy</button>
+        </article>
+
+        <article>
+            <img src="css_book2.jpg" alt="CSS Book Cover 2">
+            <h3>SASS and SCSS Guide</h3>
+            <p>Get hands-on experience with SASS and SCSS. This book covers the basics and advanced features of these CSS preprocessors for efficient styling.</p>
+            <p>Price: $35</p>
+            <button disabled>Buy</button>
+        </article>
+    </section>
+
+    <section>
+        <h2>JavaScript</h2>
+        <article>
+            <img src="js_book.jpg" alt="JavaScript Book Cover">
+            <h3>JavaScript for Frontend Developers</h3>
+            <p>A comprehensive guide to JavaScript for frontend developers. Covers ES6 features, DOM manipulation, and asynchronous programming.</p>
+            <p>Price: $40</p>
+            <button disabled>Buy</button>
+        </article>
+
+        <article>
+            <img src="js_book2.jpg" alt="JavaScript Book Cover 2">
+            <h3>React.js Essentials</h3>
+            <p>Learn the fundamentals of React.js. This book provides hands-on examples and best practices for building interactive user interfaces.</p>
+            <p>Price: $45</p>
+            <button disabled>Buy</button>
+        </article>
+    </section>
+
+    <!-- Filtering and Sorting Showcase -->
+    <section>
+        <h2>Filtering and Sorting Showcase</h2>
+        <div>
+            <h3>Books Sorted by Price</h3>
+            <!-- Static representation of sorted books by price -->
+            <!-- Placeholder for demonstration -->
+        </div>
+
+        <div>
+            <h3>Books by Authors</h3>
+            <!-- Static representation of books sorted by authors -->
+            <!-- Placeholder for demonstration -->
+        </div>
+
+        <!-- Add more filter options as needed -->
+
+    </section>
+
+    <!-- Shopping Cart Section -->
+    <section class="cart">
+        <h2>Shopping Cart</h2>
+        <article>
+            <h3>Responsive Web Design</h3>
+            <img src="ux_book.jpg" alt="UX Book Cover">
+            <p>Price: $20</p>
+            <button disabled>Delete</button>
+        </article>
+
+        <article>
+            <h3>HTML5 Mastery</h3>
+            <img src="html_book.jpg" alt="HTML Book Cover">
+            <p>Price: $25</p>
+            <button disabled>Delete</button>
+        </article>
+    </section>
+</body>
+
+</html>
